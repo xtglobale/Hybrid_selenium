@@ -17,7 +17,7 @@ public class Library_class {
 	public void LaunchApplication()  throws IOException
 
 	{
-	FileInputStream File=new FileInputStream("/src/test/resources/config.prop/config.prop");
+	FileInputStream File=new FileInputStream("C:\\Users\\dpparimi\\git\\Hybrid_selenium\\Hybrid_selenium\\src\\test\\resources\\config.prop\\config.prop");
 	prop=new Properties();
 	prop.load(File);
 	String browser = prop.getProperty("browser");
